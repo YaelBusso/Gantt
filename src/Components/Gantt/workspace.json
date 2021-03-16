@@ -1,0 +1,163 @@
+{
+    "workspaces": {
+        "projects": [
+            {
+                "updateDates": [
+                    "8/3/2021"
+                ],
+                "files": [],
+                "cards": [
+                    {
+                        "tasks": [
+                            {
+                                "name": "firstTask",
+                                "id": "6045f55c50da7be7735e15f0",
+                                "color": "pink",
+                                "description": "go to date",
+                                "status": "to do",
+                                "start": "03/08/2021",
+                                "end": "03/27/2021"
+                            },
+                            {
+                                "name": "secondTask",
+                                "id": "6045f59d6023282c38e15528",
+                                "color": "blue",
+                                "description": "create the book",
+                                "status": "in progress",
+                                "start": "03/06/2021",
+                                "end": "03/20/2021"
+                            }
+                        ],
+                        "_id": "6045f52050da7be7735e15ee",
+                        "project": "6045dc3f066887987959007b",
+                        "name": "new card",
+                        "__v": 2
+                    },
+                    {
+                        "tasks": [
+                            {
+                                "name": "myTask",
+                                "id": "6045f55c50da7be7735e15f0",
+                                "color": "orange",
+                                "description": "go to date",
+                                "status": "to do",
+                                "start": "02/08/2021",
+                                "end": "03/25/2021"
+                            },
+                            {
+                                "name": "hardTask",
+                                "id": "6045f59d6023282c38e15528",
+                                "color": "blue",
+                                "description": "create the book",
+                                "status": "in progress",
+                                "start": "02/06/2021",
+                                "end": "03/20/2021"
+                            }
+                        ],
+                        "_id": "6045f52e50da7be7735e15ef",
+                        "project": "6045dc3f066887987959007b",
+                        "name": "one card",
+                        "__v": 0
+                    }
+                ],
+                "teams": [],
+                "_id": "6045dc3f066887987959007b",
+                "name": "project1",
+                "description": "enb n",
+                "dueDate": "08/06/2021",
+                "workspace": "6045cf2e802211521d51e020",
+                "startDate": "08/03/2021",
+                "color": "#BF2E63",
+                "__v": 2
+            },
+            {
+                "updateDates": [
+                    "8/3/2021"
+                ],
+                "files": [],
+                "cards": [
+                    {
+                        "tasks": [
+                            {
+                                "name": "task1",
+                                "id": "6045f55c50da7be7735e15f0",
+                                "color": "pink",
+                                "description": "go to date",
+                                "status": "to do",
+                                "start": "03/06/2021",
+                                "end": "03/14/2021"
+                            },
+                            {
+                                "name": "task2",
+                                "id": "6045f59d6023282c38e15528",
+                                "color": "blue",
+                                "description": "create the book",
+                                "status": "in progress",
+                                "start": "03/10/2021",
+                                "end": "03/14/2021"
+                            }
+                        ],
+                        "_id": "6045f52050da7be7735e15ee",
+                        "project": "6045dc3f066887987959007b",
+                        "name": "1",
+                        "__v": 2
+                    },
+                    {
+                        "tasks": [],
+                        "_id": "6045f52e50da7be7735e15ef",
+                        "project": "6045dc3f066887987959007b",
+                        "name": "2",
+                        "__v": 0
+                    }
+                ],
+                "teams": [],
+                "_id": "6045dc4e066887987959007d",
+                "name": "project2",
+                "description": "enb n",
+                "dueDate": "2021-03-08",
+                "workspace": "6045cf2e802211521d51e020",
+                "startDate": "08/03/2021",
+                "color": "#44D7B6",
+                "__v": 0
+            },
+            {
+                "updateDates": [
+                    "8/3/2021"
+                ],
+                "files": [],
+                "cards": [],
+                "teams": [],
+                "_id": "6045dc4f066887987959007e",
+                "name": "project3",
+                "description": "enb n",
+                "dueDate": "2021-03-08",
+                "workspace": "6045cf2e802211521d51e020",
+                "startDate": "08/03/2021",
+                "color": "#F8B520",
+                "__v": 0
+            },
+            {
+                "updateDates": [
+                    "8/3/2021"
+                ],
+                "files": [],
+                "cards": [],
+                "teams": [],
+                "_id": "6045dc51066887987959007f",
+                "name": "project4",
+                "description": "enb n",
+                "dueDate": "2021-03-08",
+                "workspace": "6045cf2e802211521d51e020",
+                "startDate": "08/03/2021",
+                "color": "#8868FC",
+                "__v": 0
+            }
+        ],
+        "teams": [],
+        "_id": "6045cf2e802211521d51e020",
+        "userId": "60449956108a053d534ed441",
+        "productionDate": "08/03/2021",
+        "color": "#C967B6",
+        "__v": 4
+    }
+}

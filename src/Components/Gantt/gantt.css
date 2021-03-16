@@ -1,0 +1,42 @@
+.gantBody{
+    margin: 20px -20px;
+    width: 55rem;
+    border-radius: 20px;
+    height: 30rem;
+}
+.Card{
+  background-color: white;
+  height: 80vh;
+  width: 10vw;
+  border-radius: 20px;
+  font-size:large;
+  text-align: center;
+  align-content: center;
+  margin-top: auto;
+  margin: 25px 50px;
+  
+}
+.nav{
+  background-color: black;
+  height: 3rem;
+  color: white;
+}
+.cradsName{
+font-size: x-large;
+}
+.gantSide{
+    /* margin: 20px 250px; */
+    width: 10rem;
+    height: 50%;
+    border-radius: 20px;
+    background-color: white;
+}
+.header-top{
+  background-color: red;
+}
+.timeLine-side-title{
+  background-color: red;
+}
+html, body, #root,#root div:only-child, .gantt-container {
+    height: 100%;
+  }
