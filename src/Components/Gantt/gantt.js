@@ -86,22 +86,34 @@ import './gantt.css';
 
 
 
-
 class Gantt extends Component {
     componentDidMount() {
 
         const { tasks } = this.props;
         gantt.init(this.ganttContainer);
         gantt.parse(tasks);
+       
     }
+    
 
     render() {
 
         return (
-            <div
-                ref={(input) => { this.ganttContainer = input }}
-                style={{ width: '100%', height: '100%' }}
-            ></div>
+            <>
+                <div className="gantBody"
+
+                    ref={(input) => {
+
+
+
+                        this.ganttContainer = input
+
+
+                    }}
+
+                >  </div>
+                {/* <div className="gantt_grid_scale ">= "mal"</div> */}
+            </>
         );
     }
 }

@@ -3,6 +3,7 @@
 
 <head>
 <script src="frappe-gantt.min.js"></script>
+<link href="codebase/dhtmlxgantt.css" rel="stylesheet">   
 <link rel="stylesheet" href="frappe-gantt.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,4 +53,17 @@
     -->
 </body>
 
+</html> {
+<!DOCTYPE html>
+<html>
+<head>
+   <script src="codebase/dhtmlxgantt.js"></script>
+   <link href="codebase/dhtmlxgantt.css" rel="stylesheet">
+</head>
+<body>
+    <div id="gantt_here" style='width:1000px; height:400px;'></div>
+    <script type="text/javascript">
+        gantt.init("gantt_here");
+    </script>
+</body>
 </html>

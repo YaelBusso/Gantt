@@ -9,23 +9,22 @@
                 "cards": [
                     {
                         "tasks": [
+                            
                             {
-                                "name": "firstTask",
-                                "id": "6045f55c50da7be7735e15f0",
-                                "color": "pink",
-                                "description": "go to date",
-                                "status": "to do",
-                                "start": "03/08/2021",
-                                "end": "03/27/2021"
+                                "id": 2,
+                                "text": "create something",
+                                "start_date": "07-03-2021",
+                                "duration": 8,
+                                "progress": 0.6,
+                                "color": "red"
                             },
                             {
-                                "name": "secondTask",
-                                "id": "6045f59d6023282c38e15528",
-                                "color": "blue",
-                                "description": "create the book",
-                                "status": "in progress",
-                                "start": "03/06/2021",
-                                "end": "03/20/2021"
+                                "id": 3,
+                                "text": "malka",
+                                "start_date": "07-03-2021",
+                                "duration": 8,
+                                "progress": 0.6,
+                                "color": "red"
                             }
                         ],
                         "_id": "6045f52050da7be7735e15ee",
@@ -36,22 +35,11 @@
                     {
                         "tasks": [
                             {
-                                "name": "myTask",
-                                "id": "6045f55c50da7be7735e15f0",
-                                "color": "orange",
-                                "description": "go to date",
-                                "status": "to do",
-                                "start": "02/08/2021",
-                                "end": "03/25/2021"
-                            },
-                            {
-                                "name": "hardTask",
-                                "id": "6045f59d6023282c38e15528",
-                                "color": "blue",
-                                "description": "create the book",
-                                "status": "in progress",
-                                "start": "02/06/2021",
-                                "end": "03/20/2021"
+                                "id": 3,
+                                "text": "myTask",
+                                "start_date": "12-03-2021",
+                                "duration": 9,
+                                "progress": 0.4
                             }
                         ],
                         "_id": "6045f52e50da7be7735e15ef",
@@ -79,22 +67,18 @@
                     {
                         "tasks": [
                             {
-                                "name": "task1",
-                                "id": "6045f55c50da7be7735e15f0",
-                                "color": "pink",
-                                "description": "go to date",
-                                "status": "to do",
-                                "start": "03/06/2021",
-                                "end": "03/14/2021"
+                                "id": 1,
+                                "text": "mm",
+                                "start_date": "15-04-1000",
+                                "duration": 3,
+                                "progress": 0.6
                             },
                             {
-                                "name": "task2",
-                                "id": "6045f59d6023282c38e15528",
-                                "color": "blue",
-                                "description": "create the book",
-                                "status": "in progress",
-                                "start": "03/10/2021",
-                                "end": "03/14/2021"
+                                "id": 2,
+                                "text": "mm",
+                                "start_date": "20-04-1000",
+                                "duration": 3,
+                                "progress": 0.6
                             }
                         ],
                         "_id": "6045f52050da7be7735e15ee",
