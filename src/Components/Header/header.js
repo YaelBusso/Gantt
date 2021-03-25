@@ -1,18 +1,19 @@
 import { react, useEffect, useState } from 'react';
 import './header.css'
 import workspaces from '../Gantt/workspace.json'
-import Gantt from '../Gantt/gantt'
+// import Gantt from '../Gantt/gantt'
+// import DisplayGantt from '../Gantt/displayGantt'
 import { Route, Router, withRouter } from "react-router-dom";
 import Switch from 'react-bootstrap/esm/Switch';
 // import useState from 'react-dom'
 function Header(props) {
 
-  const [projectName, setProjectName] = useState(true);
+  // const [projectName, setProjectName] = useState(true);
   const allWorkspace = { workspaces };
   const allProjects = allWorkspace.workspaces.workspaces.projects;
-  const routeToGantt = (projectName) => {
-    props.history.push(`/Gantt/${projectName}`);
-  }
+  // const routeToGantt = (projectName) => {
+  // props.history.push(`/Gantt/${projectName}`);
+  // }
   const l = "myName";
   // const colorCircle=allProjects.workspaces.workspaces.projects
   console.log(allProjects);
@@ -40,13 +41,13 @@ function Header(props) {
 
 
   // function greetUser(e) {
-  //   debugger
-  //   console.log( e+  "Hi there, user!");
+
+
   // }
 
   // const  handleClick = value => () => {
-  //     console.log(value.name);
-  //     debugger
+
+
   //    // history.push(`/Gantt/${value.name}`) ;
   //     return 
   //     // <Redirect to='/Gantt/' />
@@ -94,7 +95,9 @@ function Header(props) {
                               </Route>
                             </Switch> */}
 
-                        <button onClick={() => routeToGantt(project.name)} className=" dropdown-item dropItem "
+                        <button
+                          // onClick={() => routeToGantt(project.name)}
+                          className=" dropdown-item dropItem "
 
                         >
 
@@ -118,38 +121,35 @@ function Header(props) {
 
 
 
-                      {/* </> */}
+
                     </div>
 
 
-                    // <li>{number}</li>
+
                   )
 
 
                   }
 
 
-                  <div className="col-8">
 
-                  </div>
 
                 </div>
-                <div className="row">
-                  <div className="col">
 
-                  </div>
 
-                  {/* <div className="col-8">
-                    <button className=" dropdown-item dropItem " type="button">Action2</button>
-                  </div> */}
 
-                </div>
-                {/* <button className="dropdown-item dropItem" type="button">Another action</button>
-                     <button className="dropdown-item dropItem" type="button">Something else here</button> */}
+
+
+
+
+
+
+
+
+
+
               </div>
             </div>
-          </div>
-          <div className="col-3">
 
           </div> <div className="col-3">
 
@@ -159,6 +159,7 @@ function Header(props) {
     </div>
         </div>
       </div>
+
     </>
 
 

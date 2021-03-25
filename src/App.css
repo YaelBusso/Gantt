@@ -1,34 +1,11 @@
-/* .App {
+/* .app{ */
+    /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* -moz-transform: translate(-50%, -50%); */
+  /* -o-transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
+/*    */
 
-  background-color:#BFBFBF;
-  width: 100vw;
-  height: 100vh;
-  
-} */
-.gantt_line_wrapper div {
-   
-    display: none;
-}
-.gantt_scale_cell{
-  background-color: #ECFBF8;
-}
-.gantt_task .gantt_task_scale .gantt_scale_cell{
-  color:#44D7B6;
-}
-.gantt_task_progress_drag{
-  display: none;
-}
-.gantt_task_content{
-  background-color: white;
-  color: #778CA2;
-}
-.gantt_grid_scale{
-  display: none;
-}
-.gantt_task_content:hover{
-  border: #41D3AE;
-}
-
-.gantt_grid_head_cell{
-  display: none;
-}
+/* } */
