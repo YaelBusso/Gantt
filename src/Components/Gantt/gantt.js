@@ -32,7 +32,8 @@ export default class Gantt extends Component {
                     min_column_width: 70,
                     scales: [
 
-                        { unit: "month", step: 1, format: "%F, %Y" },
+                        { unit: "month", step: 1, format: "%F" },
+                        { unit: "month", step: 1, format: "%Y" },
                         { unit: "day", step: 1, format: "%j, %D" }
 
 
@@ -87,6 +88,7 @@ export default class Gantt extends Component {
         gantt.init(this.ganttContainer);
         this.initGanttDataProcessor();
         gantt.parse(tasks);
+
     }
 
     componentWillUnmount() {
@@ -96,14 +98,17 @@ export default class Gantt extends Component {
         }
     }
 
+
     render() {
         const { zoom } = this.props;
         this.setZoom(zoom);
+
         return (
             <div
                 ref={(input) => { this.ganttContainer = input }}
 
-            ></div>
+            >
+            </div>
         );
     }
 }

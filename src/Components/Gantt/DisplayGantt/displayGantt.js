@@ -14,6 +14,7 @@ export default function DisplayGantt() {
     console.log(allWorkspace);
     const allTheWorkspaces = allWorkspace.workspaces.workspaces.projects;
 
+
     const theCards = []
     const theTasks = []
     const mone = []
@@ -21,7 +22,12 @@ export default function DisplayGantt() {
     allTheWorkspaces.map((item, index) => {
         {
             item.name === projectName ? item.cards.map((item, index) => {
-                { theCards.push(item); }
+                {
+                    theCards.push(item);
+                    console.log("pppppppp", item)
+
+                }
+
             })
                 : console.log("bed", item.cards);
         }
@@ -35,9 +41,6 @@ export default function DisplayGantt() {
 
             item.tasks.map((item) => {
                 indexOf++;
-
-
-                console.log("oooooooppppppp", item);
 
 
                 theTasks.push(item)
@@ -76,15 +79,15 @@ export default function DisplayGantt() {
 
 
         })
-        console.log("min", minYear);
-        console.log("max", maxYear);
+
+
     }
     currDate = parseInt(currDate)
     currDate = currDate + 2
     currDate = currDate.toString();
-    console.log("papapap", currDate);
+
     currDate = currDate.concat('-01-01')
-    console.log("tttt", currDate);
+
     maxYear = currDate;
     console.log();
     theTasks.push(
@@ -147,6 +150,7 @@ export default function DisplayGantt() {
                         zoom={currentZoom}
                         onDataUpdated={logDataUpdate}
                     />
+
 
                 </div>
             </div>
