@@ -11,11 +11,22 @@ import DisplayGantt from './Components/Gantt/DisplayGantt/displayGantt';
 export default function App() {
 
     return (
-        <div className="app">
-
+        <div>
             <Routing></Routing>
+            <br></br>
+            {/* <div className="row">
+                <div className="col">
+                <div style={{height:'300px',width:'50%',backgroundColor:'black'}}></div>
+                </div>
+                <div className="col"> 
+                <div style={{height:'300px',width:'50%'}}>
+                
+                </div>
+                
+               
+                 </div>
+            </div> */}
             <DisplayGantt></DisplayGantt>
-
 
         </div>
     );
